@@ -1,0 +1,11 @@
+,case_month,res_state,state_fips_code,res_county,county_fips_code,age_group,sex,race,ethnicity,case_positive_specimen_interval,case_onset_interval,process,exposure_yn,current_status,symptom_status,hosp_yn,icu_yn,death_yn,underlying_conditions_yn
+0,2020-11,WI,55,JUNEAU,55057,18 to 49 years,,,,,0.0,Missing,Missing,Laboratory-confirmed case,Symptomatic,No,Missing,,
+1,2022-07,CA,6,NEVADA,6057,0 - 17 years,Female,,,,0.0,Missing,Missing,Laboratory-confirmed case,Symptomatic,Missing,Missing,Missing,
+2,2022-02,GA,13,BULLOCH,13031,18 to 49 years,Female,Unknown,Missing,,0.0,Missing,Missing,Laboratory-confirmed case,Symptomatic,Missing,Missing,Missing,
+3,2020-04,SC,45,RICHLAND,45079,18 to 49 years,Female,,,,0.0,Missing,Missing,Laboratory-confirmed case,Symptomatic,No,Missing,No,
+4,2021-10,MI,26,SANILAC,26151,18 to 49 years,Female,,,,,Missing,Missing,Laboratory-confirmed case,Missing,Missing,Missing,Unknown,
+5,2022-11,NC,37,HAYWOOD,37087,50 to 64 years,Female,,,0.0,,Missing,Missing,Probable Case,Unknown,Unknown,Unknown,No,
+6,2022-01,VA,51,ORANGE,51137,50 to 64 years,Female,,,0.0,0.0,Routine surveillance,Missing,Laboratory-confirmed case,Symptomatic,No,Missing,,
+7,2022-12,WI,55,OZAUKEE,55089,50 to 64 years,Female,,,,,Missing,Missing,Laboratory-confirmed case,Missing,Unknown,Missing,Unknown,
+8,2022-05,IN,18,GIBSON,18051,18 to 49 years,Male,,,0.0,,Missing,Missing,Probable Case,Missing,No,Missing,No,
+9,2020-09,ND,38,STARK,38089,18 to 49 years,Male,Missing,Missing,,,Missing,Missing,Laboratory-confirmed case,Asymptomatic,Missing,Missing,Missing,
