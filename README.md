@@ -1,9 +1,9 @@
 ## NLP on GFE testing
-### AI contracts
+### **AI contracts**
 
 This repository contains the Jupyter Notebooks for the ACF Data Surge Team’s project, titled `NLP on GFE Testing`. 
 
-#### Project Overview
+#### **Project Overview**
 This project comprises a series of Jupyter notebooks dedicated to various machine learning and NLP tasks on contract datasets. The notebooks serve different purposes, including filtering the dataset for the last five years to identify AI-related keywords and visualizing word frequency through word clouds. Text pre-processing and summarization are conducted using the BART model, while topic modeling is achieved with NLTK and Gensim, followed by the LDA model to display and assign dominant topics. Frequently used AI techniques are extracted, contracts are clustered, and summarized using LLMs like BART, phi3, and llama3. URLs related to attachments are extracted using the Selenium library, and the attachments are handled and downloaded using a headless Firefox WebDriver. Additionally, text extraction from PDFs and Word files is performed for keyword identification and summarization. The project also includes a notebook that applies machine learning models to a COVID dataset and NLP on the attachments of contracts dataset, simulating various scenarios, noting computational loads on GFE.
 
 Below are the links to the notebooks used in this project:
@@ -24,3 +24,19 @@ Below are the links to the notebooks used in this project:
 
 
 ### Setting up OLLAMA API on GFE
+To integrate LLMs with Python on a GFE (OS: Windows), you need to set up the Ollama API and install the Phi3 and Llama3 models. Follow these steps:
+
+**Download and Install Ollama API**:
+   - Visit [Ollama's website](https://www.ollama.com/).
+   - Click on the "Download" button to get the Windows installer.
+   - Run the installer and follow the on-screen instructions to complete the installation.
+
+**Install Models**:
+   - Open a command prompt or PowerShell.
+   - Use the following commands to install the models:
+     ```
+     ollama install phi3
+     ollama install llama3
+     ```
+
+These steps will set up the Ollama API and the models on the GFE.
