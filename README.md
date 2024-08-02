@@ -29,8 +29,8 @@ Below are the links to the notebooks used in this project:
 
 
 
-- [Explore the limits of GFE COVID dataset](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)
-- [Explore the limits of GFE NLP on `sam.gov` attachments](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)
+- [Explore the limits of GFE - `COVID dataset`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)
+- [Explore the limits of GFE - `NLP on sam.gov attachments`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)
 
 
 ### Setting up a local Chatbot using LLMs
