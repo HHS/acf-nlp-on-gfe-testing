@@ -24,7 +24,7 @@ Below are the links to the notebooks used in this project:
 
 
 ### Setting up OLLAMA API on GFE
-To integrate LLMs with Python on a GFE (OS: Windows), you need to set up the Ollama API and install the Phi3 and Llama3 models. Follow these steps:
+To integrate LLMs with Python on a GFE (OS: Windows), it needs to set up the Ollama API and install the Phi3 and Llama3 models. Follow these steps:
 
 **Download and Install Ollama API**:
    - Visit [Ollama's website](https://www.ollama.com/).
