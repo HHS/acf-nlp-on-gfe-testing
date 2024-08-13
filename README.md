@@ -16,15 +16,15 @@ Below are the links to the notebooks used in this project:
 
 #### **Data Pre-processing**
 - [Identify AI related contracts `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/Get_AI_contracts_s1.ipynb)
-**Key Takeaway:** 156 contracts are related to AI. 
-- [Summarize Contracts `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/AI_contracts_summarization_s1.ipynb)**Key Takeaway:** Summarizes `Description` column of each contract using BART model, Summarization can be improved using LLMs.
+**Key Takeaway:** Extracted 156 contracts are related to AI. 
+- [Summarize Contracts `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/AI_contracts_summarization_s1.ipynb)**Key Takeaway:** Summarized `Description` column of each contract using BART model, which can be improved using LLMs.
 - [Dwonload attachments `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/Get_attachments_s2.ipynb)**Key Takeaway:** Selenium python library and FireFox webdriver were used to download attachements of AI contracts. 
 
 #### **AI usecases and Topic Tagging**
-- [Identify topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/AI_contracts_topics_s1.ipynb)**Key Takeaway:** Topic identification using unsupervised machine learning (Latent Dirichlet Allocation) technique, it is a preliminary exploration and the following noted uses LLM (llama3) to identify the topics.
-- [AI topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_csv_s3.ipynb)**Key Takeaway:** f
-- [AI techniques and usecases `sam.gov attachments`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_attachments_s3.ipynb)**Key Takeaway:** f
-- [AI techniques and topics `ai.gov, hhs.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_s3.ipynb)**Key Takeaway:** f
+- [Identify topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/AI_contracts_topics_s1.ipynb)**Key Takeaway:** Topic identification using unsupervised machine learning (Latent Dirichlet Allocation) technique, it is a preliminary exploration and the following notebooks uses LLM (llama3) to identify the topics.
+- [AI topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_csv_s3.ipynb)**Key Takeaway:**  Extracted most used AI techniques, AI usecases and topic tagging using LLM.
+- [AI techniques and usecases `sam.gov attachments`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_attachments_s3.ipynb)**Key Takeaway:**  Extracted text relavant to "satatement of work" from attachments, performed topic-tagging using LLM.
+- [AI techniques and topics `ai.gov, hhs.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_s3.ipynb)**Key Takeaway:**  Extracted most used AI techniques, AI usecases and topic tagging using LLM.
 
 #### **GFE limits**
 - [Explore the limits of GFE - `COVID dataset`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)**Key Takeaway:**  30 million records of structured data (3.9 GiB) is essentially the limit of the GFE.
