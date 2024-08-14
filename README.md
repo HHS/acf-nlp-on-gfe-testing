@@ -23,17 +23,18 @@ Below are the links to the notebooks used in this project:
 #### **AI usecases and Topic Tagging**
 - [Identify topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/AI_contracts_topics_s1.ipynb)**Key Takeaway:** Topic identification using unsupervised machine learning (Latent Dirichlet Allocation) technique, it is a preliminary exploration and the following notebooks uses LLM (llama3) to identify the topics.
 - [AI topics `sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_csv_s3.ipynb)**Key Takeaway:**  Extracted most used AI techniques, AI usecases and topic tagging using LLM.
-**Link to Deliverables:** 
+  - **Link to deliverables:** 
 [Summaries](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/summaries_of_AI_contracts_usecases.csv),[Topics](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/AI_contracts_ai_use_case_topics.csv)
 
 - [AI techniques and usecases `sam.gov attachments`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_sam_attachments_s3.ipynb)**Key Takeaway:**  Extracted text relavant to "satatement of work" from attachments, performed topic-tagging using LLM.
-**Link to Deliverables:** 
+  - **Link to deliverables:** 
 [Topics](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/ai_use_case_topics_attachments.xlsx)
 
 - [AI techniques and topics `ai.gov, hhs.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/use_cases_topics_s3.ipynb)**Key Takeaway:**  Extracted most used AI techniques, AI usecases and topic tagging using LLM.
-**Link to Deliverables:** 
+  - **Link to deliverables:** 
 [Summaries](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/summaries_of_usecases.csv),[Topics](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/ai_use_case_topics.csv),[Use Cases](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/output/ai_use_cases_relevant_430.csv)
 
+Note: large language model (llama3) has outperformed BART model in both text summarization and topic identification for a given text and the prompt. Both models are heavily depend on the accuracy of the clustering technique used to  group similar contracts.
 #### **GFE limits**
 - [Explore the limits of GFE - `COVID dataset`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_Covid_s1.ipynb)**Key Takeaway:**  30 million records of structured data (3.9 GiB) is essentially the limit of the GFE.
 - [Explore the limits of GFE - `NLP on attachments sam.gov`](https://github.com/HHS/acf-nlp-on-gfe-testing/blob/main/code/NLP_GFElimits_AIcontracts_s2.ipynb)**Key Takeaway:** 1655 pdf pages of unstructured data is essentially the limit of the GFE.
